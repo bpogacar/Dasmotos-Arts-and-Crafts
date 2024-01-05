@@ -1,13 +1,28 @@
 html {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Helvetica;
 }
 
-h1.header {
+#title {
+    width: 100%;
+    
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    background-image: url('./pattern.jpeg');
+    text-align: center;
+}
+
+h2.header {
     color: white;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 #brushes {
-    background-color: lightgreen;
+    background-color: mediumspringgreen;
 }
 
 #frames {
@@ -15,11 +30,15 @@ h1.header {
 }
 
 #paint {
-    background-color: lightskyblue;
+    background-color: skyblue;
 }
 
-h2 {
+h3 {
     font-weight: bold;
 }
 
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
 
